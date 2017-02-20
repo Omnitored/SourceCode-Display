@@ -1,0 +1,35 @@
+#demo_input {
+	display: none;
+}
+body {
+	background-color: #272822;
+	height: 100%;
+}
+body > .CodeMirror {
+	margin-top: 20%;
+	width: 49%;
+	border: 1px solid gray;
+	display: inline-block;
+}
+body .CodeMirror:nth-child(3) {
+    float: right; 
+     }
+.CodeMirror-gutter-wrapper {
+	display: none !important;
+}
+.CodeMirror-gutter {
+	display: none !important;
+}
+.CodeMirror-gutters {
+	display: none !important;
+}
+#header-text {
+	position: absolute;
+	color: white;
+	left: 50%;
+	margin-top: 5%;
+	font-size: 50px;
+	text-align: center;
+	border: 1px solid green;
+	transform: translateX(-50%);
+}
